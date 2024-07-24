@@ -7,6 +7,11 @@
     "dist",
     "src"
   ],
+
+ "repository": {
+  "url": "https://github.com/sma-rcz/sr-product-card",
+  "type": "git"
+ }, 
   "engines": {
     "node": ">=10"
   },
@@ -60,5 +65,11 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4"
-  }
+  },
+  "keywords": [
+    "product",
+    "card",
+    "sma",
+    "rcz"
+  ]
 }

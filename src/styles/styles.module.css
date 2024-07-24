@@ -1,0 +1,81 @@
+
+
+.productCard {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    padding-bottom: 0px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 0px;
+    height: auto;
+}
+
+.productImg {
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+}
+
+.productDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buttonsContainer {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonMinus {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 20px;
+    width: 30px;
+}
+
+.buttonMinus:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.countLabel {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 16px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    width: 30px;
+}
+
+.buttonAdd {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 20px;
+    width: 30px;
+}
+
+.buttonAdd:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+ html body .disabled  {
+    background-color: rgba(184, 197, 182, 0.5) ;
+    cursor: not-allowed;
+    border-left: 1px solid white;
+    color: rgb(0, 0, 0);
+}
+
+html body .disabled:hover  {
+    background-color: rgba(184, 197, 182, 0.5) ;
+    cursor: not-allowed;
+    border-left: 1px solid white;
+    color: rgb(0, 0, 0);
+}
